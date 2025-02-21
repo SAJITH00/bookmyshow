@@ -301,10 +301,11 @@
         
 
 <!-- script for cards -->
-       <script>
-        document.getElementById('nextCardButton').addEventListener('click', function () {
-            const cardContainer = document.querySelector('.card-container');
-            const cards = document.querySelectorAll('.card');
+<script>
+    document.querySelectorAll('#nextCardButton').forEach(button => {
+        button.addEventListener('click', function () {
+            const cardContainer = this.previousElementSibling;
+            const cards = cardContainer.querySelectorAll('.card');
 
             // Add the 'hide' class to the first card to slide it out
             cards[0].classList.add('hide');
@@ -327,6 +328,7 @@
                 });
             }, 500); // Adjust the timeout to match the transition duration
         });
-    </script>
+    });
+</script>
 </body>
 </html>
