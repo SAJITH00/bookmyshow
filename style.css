@@ -58,6 +58,10 @@
     color: white;
     cursor: pointer;
 }
+.navbar .sign-in button:hover{
+    background-color: rgba(44, 204, 116, 0.717);
+}
+
 
 .navbar .hamburger {
     display: none;
@@ -103,10 +107,13 @@ select {
     color: #333;
     text-decoration: none;
     padding: 10px 15px;
+    cursor: pointer;
 }
+
 
 .nav-link.active {
     font-weight: bold;
+    color: aqua;
 }
 .topnav{
     display: flex;
