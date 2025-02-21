@@ -256,3 +256,6 @@ select {
 *{
     font-family: "Roboto Slab", serif;
 }
+.live{
+    width: 270px;
+}
