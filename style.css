@@ -199,11 +199,11 @@ select {
     background: #007BFF;
     color: white;
     border-radius: 10px;
-    width: 270px;
+    width: 250px;
     flex-wrap: wrap;
   }
   .live{
-    width: 270px;
+    width: 200px;
     border-radius: 10px;
   }
   /* footer */
