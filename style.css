@@ -199,7 +199,6 @@ select {
     background: #007BFF;
     color: white;
     border-radius: 10px;
-    width: 20%;
     width: 270px;
     flex-wrap: wrap;
   }
@@ -256,6 +255,4 @@ select {
 *{
     font-family: "Roboto Slab", serif;
 }
-.live{
-    width: 270px;
-}
+
