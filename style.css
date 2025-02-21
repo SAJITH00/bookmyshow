@@ -1,0 +1,258 @@
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.navbar .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .search-bar {
+    flex: 1;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .search-bar input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.navbar .search-bar button {
+    padding: 8px 12px;
+    background-color: #555;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.navbar .location {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.navbar .location i {
+    margin-right: 5px;
+}
+
+.navbar .sign-in button {
+    padding: 8px 16px;
+    background-color: #555;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar .hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+/* juhh */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+select {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+/* nav down */
+.content1, .content2 {
+    padding: 10px 20px;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/* cards */
+
+ /* Main container for the cards and button */
+ .main-container {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Adjust based on your design */
+    margin: 20px auto;
+    position: relative;
+}
+
+/* Container for the cards */
+.card-container {
+    padding-left: 40px;
+    display: flex;
+    overflow: hidden;
+    width: 1500px; /* Adjust based on your card width */
+    gap: 10px; /* Add spacing between cards */
+}
+
+/* Individual card styling */
+.card {
+    flex: 0 0 22%; /* Each card takes 22% of the container width (4 cards visible) */
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+    border-radius: 30px;
+
+}
+
+/* Hide the card by sliding it to the left */
+.card.hide {
+    transform: translateX(-100%);
+}
+
+/* Slide the new card in from the right */
+.card.new {
+    transform: translateX(100%);
+}
+
+/* Reset the position of the active card */
+.card.active {
+    transform: translateX(0);
+}
+
+/* Button styling */
+#nextCardButton {
+    margin-left: 20px; /* Add spacing between the last card and the button */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    opacity: 0.5;
+    margin-right: 10px;
+}
+/* banner */
+.banner{
+    display: flex;
+    justify-content: center;
+}
+/* l */
+.statistics {
+    padding: 10px 5px;
+  }
+  
+  .statistics h2 {
+    font-size: 45px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    padding-left: 28px;
+
+  }
+  
+  .stats-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .stat {
+    background: #007BFF;
+    color: white;
+    border-radius: 10px;
+    width: 20%;
+    width: 270px;
+    flex-wrap: wrap;
+  }
+  .live{
+    width: 270px;
+    border-radius: 10px;
+  }
+  /* footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Custom styles for social media icons */
+.footer-section .fab.fa-facebook-f {
+    color: white;
+}
+*{
+    font-family: "Roboto Slab", serif;
+}
